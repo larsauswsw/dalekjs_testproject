@@ -4,7 +4,7 @@ module.exports = {
     .open('http://www.google.de')
     .assert.title().is('Google', 'It has title')
     .done();
-},
+}/*,
 
 'Amazon does its thing': function (test) {
   test
@@ -14,5 +14,5 @@ module.exports = {
     .waitForElement('#result_0')
     .assert.text('#result_0 .newaps a span').is('The Blues Brothers [VHS]')
     .done();
-}
+}*/
 };
