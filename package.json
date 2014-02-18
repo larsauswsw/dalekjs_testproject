@@ -1,0 +1,16 @@
+{
+  "name": "dalekjs_testproject",
+  "description": "Dalek.js Testproject",
+  "version": "0.0.1",
+  "devDependencies": {
+    "dalekjs": "0.0.8",
+    "dalek-browser-chrome": "0.0.9",
+    "dalek-browser-firefox": "0.0.5",
+    "dalek-browser-ie": "0.0.2",
+    "dalek-reporter-html": "0.0.3",
+    "grunt": "~0.4.2",
+    "grunt-dalek": "~0.2.0",
+    "dalek-reporter-junit": "0.0.1",
+    "dalek-reporter-json": "0.0.1"
+  }
+}

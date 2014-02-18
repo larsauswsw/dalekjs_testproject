@@ -1,0 +1,6 @@
+{
+	"browser": ["chrome"],
+	"html-reporter": {
+		"dest": "reports/html"
+	}
+}
