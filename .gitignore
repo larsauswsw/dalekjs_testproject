@@ -1,3 +1,4 @@
 node_modules
 temp
 report
+.DS_Store

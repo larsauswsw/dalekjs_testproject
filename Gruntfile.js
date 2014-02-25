@@ -3,21 +3,22 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 	  dalek: {
 		dist: {
-		  src: ['test/my_first_test.js']
+		  src: ['test/*.js']
 		},
 		options: {
 		  //browser: ['phantomjs', 'firefox', 'chrome', 'IE'],
-		  browser: ['phantomjs'],
+		  browser: ['phantomjs', 'chrome'],
+		  //browser: ['phantomjs', 'firefox', 'chrome' ],
 		  reporter: ['console', 'html', 'junit', 'json'],
 		  // don't load config from an Dalekfile
 		  dalekfile: false,
 		  // specify advanced options (that else would be in your Dalekfile)
 		  advanced: {
-			browsers: [{
+			/*browsers: [{
 				firefox: {
 					binary: 'C:/Program Files (x86)/Mozilla Firefox/firefox.exe'
 				}
-			}]/*,
+			}]*//*,
 			'html-reporter': {
 			dest: 'reports/html'
 		  },
