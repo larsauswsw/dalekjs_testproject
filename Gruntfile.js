@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 		  //browser: ['phantomjs', 'firefox', 'chrome', 'IE'],
 		  browser: ['phantomjs', 'chrome'],
 		  //browser: ['phantomjs', 'firefox', 'chrome' ],
-		  reporter: ['console', 'html', 'junit', 'json'],
+		  //reporter: ['console', 'html', 'junit', 'json'],
 		  // don't load config from an Dalekfile
 		  dalekfile: false,
 		  // specify advanced options (that else would be in your Dalekfile)
