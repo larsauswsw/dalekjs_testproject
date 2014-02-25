@@ -1,5 +1,7 @@
 node_modules
+npm-debug.log
 temp
 report
 .DS_Store
 .project
+
