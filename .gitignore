@@ -4,4 +4,7 @@ temp
 report
 .DS_Store
 .project
-
+reports/dalek
+reports/html
+reports/json
+reports/junit
